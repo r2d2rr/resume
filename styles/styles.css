@@ -1,0 +1,336 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f7fa;
+}
+
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.mainContent {
+	background-color: #FFFFFF;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	padding: 105px 90px 90px;
+}
+
+/* aboutUser styles*/
+
+.abautUser {
+	margin-bottom: 40px;
+}
+
+.abautUser_position {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.abautUser_name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+/* project styles*/
+
+.projects {
+	margin-bottom: 50px;
+}
+
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.projects_list {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.project_item {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.project,
+.project_link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+
+.project_link {
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.project_brecket {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/* work styles*/
+
+.work {
+	margin-bottom: 45px;
+}
+
+.work_position {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.work_list {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.work_list_item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+
+/* Education styles*/
+
+.Education_management {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+
+/* sidebar styles*/
+
+.sidebar {
+	padding-top: 20px;
+	background-color: #1E2939;
+	width: 370px;
+}
+
+.sidebar_photo {
+	width: 250px;
+	margin-bottom: 30px;
+}
+
+.sidebar_title {
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 10px;
+}
+
+.contacts,
+.techSkills,
+.Interests {
+	margin-left: 40px;
+}
+
+.contacts {
+	margin-bottom: 50px;
+}
+
+.techSkills {
+	margin-bottom: 45px;
+}
+
+.contact_type {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+	margin-right: 5px;
+}
+
+.contact_link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #808790;
+}
+
+.techSkills_list,
+.Interests_list {
+	padding: 0;
+	margin-left: 17px;
+	color: #FFFFFF;
+}
+
+.techSkills_item,
+.Interests_item {
+	color: #FB6D3A;
+}
+
+.techSkills_text,
+.Interests_text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+	.main {
+	flex-direction: column;
+	width: 100%;
+	}
+	
+	.mainContent {
+	padding: 50px;
+	}
+	
+	.sidebar {
+	width: 100%;
+	}
+	
+	.sidebar_photo {
+	width: 100%;
+	margin: 0 auto 20px;
+	}
+	
+	.sidebar_title {
+	margin-bottom: 20px;
+	text-align: center;
+	}
+	
+	.contacts,
+	.techSkills,
+	.Interests {
+	margin-left: 0;
+	text-align: center;
+	}
+	
+	.contacts {
+	margin-bottom: 30px;
+	}
+	
+	.techSkills,
+	.Interests {
+	margin-bottom: 20px;
+	}
+	
+	.abautUser_name {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	text-align: center;
+	}
+	
+	.abautUser_position {
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+	
+	.title {
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+	
+	.projects_list {
+	margin-left: 0;
+	text-align: center;
+	}
+	
+	.project_item,
+	.project,
+	.project_brecket {
+	font-size: 12px;
+	line-height: 20px;
+	}
+	
+	.project_link {
+	font-size: 12px;
+	margin-left: 5px;
+	}
+	
+	.work_position {
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+	
+	.work_list {
+	margin-left: 0;
+	text-align: center;
+	}
+	
+	.work_list_item {
+	font-size: 12px;
+	line-height: 20px;
+	}
+	
+	.Education_management {
+	font-size: 12px;
+	line-height: 15px;
+	}
+	
+	.contact_type {
+	font-size: 12px;
+	line-height: 20px;
+	margin-right: 3px;
+	}
+	
+	.contact_link {
+	font-size: 12px;
+	line-height: 20px;
+	}
+	
+	.techSkills_list,
+	.Interests_list {
+	margin-left: 0;
+	padding-left: 0;
+	text-align: center;
+	}
+	
+	.techSkills_item,
+	.Interests_item {
+	font-size: 12px;
+	line-height: 20px;
+	}
+	
+	.techSkills_text,
+	.Interests_text {
+	font-size: 12px;
+	line-height: 20px;
+	}
+	}
